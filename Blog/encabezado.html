@@ -1,0 +1,36 @@
+header {
+            background-color: #E86EB3 ;
+            padding: 20px;
+            color: white;
+            text-align: center;
+            font-family: papyrus;
+        }
+        .search-bar {
+            margin-top: 20px;
+        }
+        .search-bar input[type="text"] {
+            padding: 10px;
+            width: 80%;
+            border: none;
+            border-radius: 5px;
+        }
+        .search-bar input[type="submit"] {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #fff;
+            color: #0bbdca;
+            cursor: pointer;
+        }
+        .search-bar input[type="submit"]:hover {
+            background-color: #ddd;
+        }
+        <header>
+<h1>Buscar en el Sitio</h1>
+<div class="search-bar">
+<form action="/buscar" method="GET">
+<input type="text" name="query" placeholder="Escribe aquí para buscar...">
+<input type="submit" value="Buscar">
+</form>
+</div>
+</header>
